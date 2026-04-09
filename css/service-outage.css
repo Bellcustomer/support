@@ -1,0 +1,218 @@
+/* Service Outage*/
+.ourservice-heading {
+    margin-bottom: 20px;
+    letter-spacing: -.4px;
+    font-weight: normal;
+    color: var(--bell-white-new, #ffffff);
+    line-height: 1.1;
+    font-size: 24px;
+    font-family: var(--font-family-variable);
+}
+
+.ourservice-footer {
+    margin-top: 30px;
+}
+
+.bhp-notification .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bhp-notification .bhp-icon-exclamation {
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.bhp-notification-title {
+    display: block;
+    padding: 0 30px 0 50px;
+}
+
+.bhp-notification-wrap {
+    position: relative;
+    border-radius: 10px;
+    background-color: var(--bell-vellum-default, #EEECE5);
+    padding: 20px;
+    margin: 20px auto;
+    color: var(--theme-text-primary, #111);
+}
+
+.bhp-notification-close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 7px;
+    top: 10px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.bhp-notification .bhp-icon-close {
+    width: 40px;
+    height: 40px;
+    padding: 11px;
+    fill: var(--Blue-Online, #0070CE);
+}
+
+.bhp-notification .bhp-icon-exclamation {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    margin: 16px 10px 15px 15px;
+    background: var(--Blue-Online, #0070CE);
+    border-radius: 50%;
+    flex-shrink: 0;
+    fill: var(--bell-white-new, #ffffff);
+}
+
+.bhp-notification-toggle {
+    padding: 0;
+    margin: 5px 0 0;
+    background-color: transparent;
+    color: var(--Blue-Online, #0070CE);
+    text-decoration: underline;
+    border: none;
+}
+
+.bhp-notification-toggle > span {
+    text-decoration: underline;
+}
+
+.bhp-notification-toggle > span:hover,
+.bhp-notification-toggle > span:focus{
+    text-decoration: none;
+}
+button#serviceOutageNotificationbtn:focus {
+    outline: 2px solid var(--Blue-Online, #0070CE);
+    outline-offset: 4px;
+    border-radius: 2px;
+} 
+.bhp-notification-wrap .bhp-notification-toggle-label-expand {
+    display: inline-block;
+}
+
+.bhp-notification-wrap .bhp-notification-toggle-label-collapse {
+    display: none;
+}
+
+.bhp-notification-wrap.bhp-active .bhp-notification-toggle-label-expand {
+    display: none;
+}
+
+.bhp-notification-wrap.bhp-active .bhp-notification-toggle-label-collapse {
+    display: inline-block;
+}
+
+.bhp-notification .bhp-accordion-content {
+    padding: 15px 0 0 0;
+    font-size: 12px;
+    color: var(--Text-colour-Body-light, #555);
+    line-height: 17px;
+}
+.sv-outage-section .outage-notification-wrap {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: var(--bell-white-new, #ffffff);
+    padding: 20px;
+    margin: 30px auto;
+    display: flex;
+    color: var(--bell-white-new, #ffffff);
+    text-align: center;
+    outline: 1px solid var(--Blue-Online, #0070CE);
+    font-weight: 600;
+}
+
+.sv-outage-section .custom-message-wrap {
+    justify-content: initial;
+    align-items: initial;
+}
+.sv-outage-section .outage-text .bhp-accordion-icon {
+    left: auto;
+    /*top: 5px;*/
+    position: relative;
+    margin-right: 5px;
+}
+.sv-outage-section .bhp-notification-toggle > span {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sv-outage-section .bhp-notification-toggle{
+    text-decoration:none;
+}
+.sv-outage-section .outage-text .sub-head {
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: var(--Text-colour-Body-light, #555);
+    line-height:18px;
+}
+.sv-outage-section .outage-text .head-text {
+    line-height: 18px;
+}
+.sv-outage-section .outage-text {
+        padding: 0 0 0 10px;
+        text-align: left;
+}
+.sv-outage-section .bhp-notification-close {
+    top: auto;
+}
+
+.sv-outage-section .custom-message-wrap.bhp-active .bhp-notification-toggle-label-expand {
+    display: none;
+}
+
+.sv-outage-section .custom-message-wrap.bhp-active .bhp-notification-toggle-label-collapse {
+    display: inline-block;
+}
+.sv-outage-section .outage-text .head-text p {
+    margin: 0;
+}
+.custom-message-wrap .bhp-notification-toggle-label-collapse{
+    display:none;
+}
+.custom-message-wrap .outage-text.bhp-active .bhp-notification-toggle-label-expand {
+    display: none;
+}
+
+.custom-message-wrap .outage-text.bhp-active .bhp-notification-toggle-label-collapse {
+    display: inline-block;
+}
+.bhp-notification-toggle-label-collapse .bhp-accordion-icon:before{
+    width:0;
+}
+
+
+
+.bhp-hide,
+.hide {
+    display: none !important;
+}
+
+.bhp-show-block,
+.show{
+    display: block!important;
+}
+
+.bhp-txt-blue {
+    color: var(--Blue-Online, #0070CE)!important;
+}
+
+.bhp-container {
+    width: 100%;
+}
+
+.bhp-nowrap,
+.txtNowrap {
+    white-space: nowrap !important;
+}
+.bhp-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .25s ease-out
+}
+
